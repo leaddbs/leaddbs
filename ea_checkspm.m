@@ -1,4 +1,14 @@
 function ea_checkspm
+% 
+%
+% USAGE:
+%
+%    ea_checkspm
+%
+% .. AUTHOR:
+%       - Andreas Horn, Original file
+%       - Ningfei Li, Original file
+%       - Daniel Duarte, Documentation
 
 if ~isdeployed
     try
