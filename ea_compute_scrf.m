@@ -1,4 +1,17 @@
 function ea_compute_scrf(handles)
+% 
+%
+% USAGE:
+%
+%    ea_compute_scrf(handles)
+%
+% INPUT:
+%    handles:
+%
+% .. AUTHOR:
+%       - Andreas Horn, Original file
+%       - Ningfei Li, Original file
+%       - Daniel Duarte, Documentation
 
 options=getappdata(handles.scrf,'options');
 directory=getappdata(handles.scrf,'directory');
