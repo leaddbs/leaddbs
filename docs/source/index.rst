@@ -4,12 +4,12 @@
    :align: center
    :width: 160px
 
-PaCER
-=====
+Lead-DBS
+========
 
 .. rst-class:: under-title
 
-Precise and Convenient Electrode Reconstruction for DBS
+Localization of Electrodes After DBS surgery
 
 .. raw:: html
 
@@ -18,7 +18,7 @@ Precise and Convenient Electrode Reconstruction for DBS
     </style>
 
     <div class="alert alert-info" align="center">
-        View PaCER <strong>source code</strong> on <a href="https://github.com/adhusch/PaCER"><img src="https://prince.lcsb.uni.lu/img/logos/github.png" style="height: 40px !important;"></a>.
+        View PaCER <strong>source code</strong> on <a href="https://github.com/netstim/leaddbs"><img src="https://prince.lcsb.uni.lu/img/logos/github.png" style="height: 40px !important;"></a>.
     </div>
 
 
