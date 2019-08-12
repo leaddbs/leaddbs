@@ -1,4 +1,14 @@
 function ea_init_coregctpopup(handles,options,handlestring)
+% Initializes CT coregistration methods popupmenu.
+%
+% USAGE:
+%
+%    ea_init_coregctpopup(handles,options,handlestring)
+%
+% INPUTS:
+%    handles:           LEAD GUI handle
+%    options:           deprecated
+%    handlestring:      
 
 if ~exist('handlestring','var')
     handlestring='coregctmethod';
