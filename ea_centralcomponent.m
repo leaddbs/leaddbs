@@ -1,4 +1,22 @@
 function slicebw=ea_centralcomponent(slicebw,mask,options)
+% 
+%
+% USAGE:
+%
+%    slicebw = ea_centralcomponent(slicebw,mask,options)
+%
+% INPUTS:
+%    slicebw:
+%    mask:
+%    options:
+%
+% OUTPUT:
+%    slicebw
+%
+% .. AUTHOR:
+%       - Andreas Horn, Original file
+%       - Ningfei Li, Original file
+%       - Daniel Duarte, Documentation
 
 %% determine mask center:
 [yy,xx]=find(mask);
