@@ -1,5 +1,19 @@
 function ea_checkfiles(options)
-% load files
+% Load files
+%
+% USAGE:
+%
+%    ea_checkfiles(options)
+%
+% INPUT:
+%    options:
+%
+%
+% .. AUTHOR:
+%       - Andreas Horn, Original file
+%       - Ningfei Li, Original file
+%       - Daniel Duarte, Documentation
+
 if strcmp(options.prefs.patientdir,'Choose Patient Directory')
     ea_error('Please choose patient directory first');
 end
