@@ -1,4 +1,14 @@
 function ea_initrecentpatients(handles,patsub)
+% 
+%
+% USAGE:
+%
+%    ea_initrecentpatients(handles,patsub)
+%
+% INPUTS:
+%    handles:
+%    patsub:
+
 if ~exist('patsub','var')
     patsub='patients';
 end
