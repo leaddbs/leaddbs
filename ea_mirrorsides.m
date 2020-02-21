@@ -1,7 +1,16 @@
 function elstruct=ea_mirrorsides(elstruct)
+% Function that will duplicate elstruct with mirrored sides
+%
+% USAGE:
+%
+%    elstruct = ea_mirrorsides(elstruct)
+%
+% INPUT:
+%    elstruct:
+%
+% OUTPUT:
+%    elstruct:
 
-
-% function that will duplicate elstruct with mirrored sides
 if isstruct(elstruct) % proper elstruct
     dim=length(elstruct);
     
