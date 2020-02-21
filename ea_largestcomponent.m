@@ -1,4 +1,15 @@
 function slicebw=ea_largestcomponent(slicebw)
+%
+% 
+% USAGE:
+%
+%    slicebw = ea_largestcomponent(slicebw)
+%
+% INPUTS:
+%    slicebw:
+%
+% OUTPUT:
+%    slicebw:
 
 stats=conncomp(slicebw);
 
