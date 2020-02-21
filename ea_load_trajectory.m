@@ -1,4 +1,16 @@
 function pobj=ea_load_trajectory(directory,side)
+% 
+%
+% USAGE:
+%
+%    pobj = ea_load_trajectory(directory,side)
+%
+% INPUTS:
+%    directory:
+%    side:
+%
+% OUTPUT:
+%    pobj:
 
 load([directory,'ea_trajectories.mat']);
 
