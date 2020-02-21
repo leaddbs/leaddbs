@@ -1,6 +1,14 @@
 function ea_largestcomponent_nii(fname,cnum)
 % helper function that reduces the nifti components to the largest
 % component.
+% 
+% USAGE:
+%
+%    ea_largestcomponent_nii(fname,cnum)
+%
+% INPUTS:
+%    fname:
+%    cnum:
 
 nii=ea_load_nii(fname);
 nii.img(isnan(nii.img))=0;
