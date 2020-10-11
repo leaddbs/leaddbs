@@ -1,4 +1,16 @@
 function ea_listatlassets(options,handles,mninative,oldatlas)
+%
+% 
+% USAGE:
+%
+%    ea_listatlassets(options,handles,mninative,oldatlas)
+%
+% INPUTS:
+%    options:
+%    handles:
+%    mninative:
+%    oldatlas:
+
 % mninative==1: MNI space, ==2: native space
 
 if ~exist('oldatlas','var')
