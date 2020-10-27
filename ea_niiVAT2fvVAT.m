@@ -1,4 +1,16 @@
 function vatfv = ea_niiVAT2fvVAT(nii)
+%
+%
+% USAGE:
+%
+%    vatfv = ea_niiVAT2fvVAT(nii)
+%
+% INPUTS:
+%    nii:
+%
+% OUTPUT:
+%    vatfv
+
 start = nii.mat * [1;1;1;1];
 niisize = size(nii.img);
 stop = nii.mat * [niisize,1]';
