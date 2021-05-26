@@ -1,4 +1,13 @@
 function ea_load_group(handles,groupdir)
+% 
+%
+% USAGE:
+%
+%    ea_load_group(handles,groupdir)
+%
+% INPUTS:
+%    handles:
+%    groupdir:
 
 ea_busyaction('on',handles.leadfigure,'group');
 
